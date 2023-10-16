@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+</head>
+<body>
+  <header>
+    <img class="logo" src="src/images/logo.svg" alt="logo fylo">
+    <ul class="menu">
+      <li class="menu-item"><a href="#features">Features</a></li>
+      <li class="menu-item"><a href="#team">Team</a></li>
+      <li class="menu-item"><a href="#sign-in">Sign In</a></li>
+    </ul>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <img src="src/images/illustration-intro.png" alt="hero's image">
+      <h2>All your files in one secure location,<br class="break"> accessible anywhere.</h2>
+      <p>Fylo stores all your most important files in one secure location. <br class="break"> 
+      Access them wherever you need, share and collaborate with <br class="break"> 
+      friends family, and co-workers.</p>
+      <button>Get Started</button>
+    </div>
+      <img class="hero-bg" src="src/images/bg-curvy-desktop.svg" alt="bg-curvy-desktop">
+  </main>
+
+  <section id="features" class="features">
+    <div class="feature">
+      <img src="src/images/icon-access-anywhere.svg" alt="computer icon">
+      <h3>Access your files, anywhere</h3>
+      <p>The ability to use a smartphone, tablet, or computer <br> to access your account means your files follow you everywhere.</p>
+    </div>
+
+    <div class="feature">
+      <img src="src/images/icon-security.svg" alt="security icon">
+      <h3>Security you can trust</h3>
+      <p>2-factor authentication and user-controlled encryption are <br> just a couple of the security features we allow to help <br> secure your files.</p>
+    </div>
+
+    <div class="feature">
+      <img src="src/images/icon-collaboration.svg" alt="collaboration icon">
+      <h3>Real-time collaboration</h3>
+      <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+    </div>
+
+    <div class="feature">
+      <img src="src/images/icon-any-file.svg" alt="storage icon">
+      <h3>Store any type of file</h3>
+      <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file <br> types to be securely stored and shared</p>
+    </div>
+  </section>
+
+  <section id="team" class="team">
+    <img src="src/images/illustration-stay-productive.png" alt="productive image">
+    <div class="team-text">
+      <h2>Stay productive, <br> wherever you are</h2>
+      <p>Never let location be an issue when accessing your files. Fylo has you <br> covered for all of your file storage needs.</p>
+      <p>Securely share files and folders with friends, family and colleagues for live <br> collaboration. No email attachments required.</p>
+      <a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">See how Fylo works</a>
+    </div>
+  </section>
+
+  <section class="feedback-cards">
+    <div class="card">
+      <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+      <div class="profile">
+        <img class="profile-img" src="src/images/profile-1.jpg" alt="profile 1">
+        <div class="profile-info">
+          <h5><b>Satish Patel</b></h5>
+          <p>Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+      <div class="profile">
+        <img class="profile-img" src="src/images/profile-2.jpg" alt="profile 2">
+        <div class="profile-info">
+          <h5><b>Bruce McKenzie</b></h5>
+          <p>Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+      <div class="profile">
+        <img class="profile-img" src="src/images/profile-3.jpg" alt="profile 3">
+        <div class="profile-info">
+          <h5><b>Iva Boyd</b></h5>
+          <p>Founder & CEO, Huddle</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="sign-in" class="sign-in invalid">
+    <h2>Get early access today</h2>
+    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+    <div class="inputs">
+      <input type="email" name="email" id="email" placeholder="email@example.com">
+      <input type="submit" id="submit" class="submit" value="Get Started For Free">
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="text-logo">
+      <img class="logo" src="src/images/logo.svg" alt="logo fylo">
+      <p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    </div>
+
+    <address class="address">
+      <p class="phone">+1-543-123-4567</p>
+      <p class="mail">example@fylo.com</p>
+    </address>
+
+    <div class="menu-footer">
+      <ul>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">About Us</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Jobs</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Press</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Blog</a></li>
+      </ul>
+
+      <ul>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Contact us</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Terms</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/">Privacy</a></li>
+      </ul>
+    </div>
+
+    <div class="social">
+      <a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/"><i class="fa-brands fa-facebook-f"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/"><i class="fa-brands fa-twitter"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/arthur-marvin1423/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="./src/js/emailValidation.js"></script>
+  <script src="./src/js/scrollBehavior.js"></script>
+</body>
+</html>
